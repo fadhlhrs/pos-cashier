@@ -9,6 +9,7 @@
 
         <div class="collapse navbar-collapse" id="navbarTop">
             <ul class="navbar-nav mr-auto">
+                <li class="nav-item"><a class="nav-link" href="{{ url('/inventory') }}">Inventory</a> </li>
                 <li class="nav-item"><a class="nav-link" href="{{ url('/history') }}">History</a> </li>
                 <li class="nav-item"><a class="nav-link" href="{{ url('/transaction') }}">Transaction</a> </li>
             </ul>
